@@ -14,6 +14,7 @@
 		2E607FC41FB46D7300C60870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E607FC21FB46D7300C60870 /* LaunchScreen.storyboard */; };
 		2E607FCF1FB46D7300C60870 /* tableViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E607FCE1FB46D7300C60870 /* tableViewTestTests.swift */; };
 		2E607FDA1FB46D7300C60870 /* tableViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E607FD91FB46D7300C60870 /* tableViewTestUITests.swift */; };
+		2E607FE81FB533F600C60870 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E607FE71FB533F600C60870 /* TextCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2E607FD51FB46D7300C60870 /* tableViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E607FD91FB46D7300C60870 /* tableViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewTestUITests.swift; sourceTree = "<group>"; };
 		2E607FDB1FB46D7300C60870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E607FE71FB533F600C60870 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				2E607FB91FB46D7300C60870 /* AppDelegate.swift */,
 				2E607FBB1FB46D7300C60870 /* ViewController.swift */,
+				2E607FE71FB533F600C60870 /* TextCell.swift */,
 				2E607FBD1FB46D7300C60870 /* Main.storyboard */,
 				2E607FC01FB46D7300C60870 /* Assets.xcassets */,
 				2E607FC21FB46D7300C60870 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E607FBC1FB46D7300C60870 /* ViewController.swift in Sources */,
+				2E607FE81FB533F600C60870 /* TextCell.swift in Sources */,
 				2E607FBA1FB46D7300C60870 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
